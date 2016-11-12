@@ -1,6 +1,8 @@
 # TypeScript execution environment and REPL
 ## Node.js LTS (6.9.1) Alpine Linux
 
+[![Docker Automated Build](https://img.shields.io/docker/automated/frapsoft/ts-node.svg)](https://hub.docker.com/r/frapsoft/ts-node/) [![Docker Pulls](https://img.shields.io/docker/pulls/frapsoft/ts-node.svg)](https://hub.docker.com/r/frapsoft/ts-node/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
+
 - Docker Hub: [frapsoft/ts-node](https://hub.docker.com/r/frapsoft/ts-node/)
 - Repository: <https://github.com/ellerbrock/ts-node-docker>
 - Dockerfile: <https://github.com/ellerbrock/ts-node-docker/blob/master/Dockerfile>
