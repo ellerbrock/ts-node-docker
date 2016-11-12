@@ -1,5 +1,5 @@
 
-FROM frapsoft/node
+FROM frapsoft/node:yarn
 
 MAINTAINER Maik Ellerbrock (github.com/ellerbrock)
 
@@ -9,9 +9,7 @@ ENV CONTAINER_REPO https://github.com/ellerbrock/ts-node-docker
 
 USER root
 
-RUN npm update && \
-  npm i -g typescript ts-node && \
-  npm cache clean
+RUN yarn global add typescript ts-node
 
 USER app
 ENV HOME=/app
